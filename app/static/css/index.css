@@ -6,6 +6,10 @@
 	border: 1px solid red;
 }
 
+body {
+	background: transparent;
+}
+
 .background {
 	top: 0;
 	left: 0;

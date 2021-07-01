@@ -58,7 +58,6 @@ function setBackgroundMood() {
 
 // Set the background mood.
 let hour = new Date().getHours();
-s("body").classList.add(`sky-gradient-${hour}`);
 setBackgroundMood();
 setInterval(setBackgroundMood, 2000);
 

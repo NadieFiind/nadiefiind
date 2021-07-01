@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
-app = "flask run"
+app = "flask run --port=8080 --host=0.0.0.0"
 
 [packages]
 flask = "*"
