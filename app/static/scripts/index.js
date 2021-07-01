@@ -57,7 +57,9 @@ function setBackgroundMood() {
 /** The script starts here! */
 
 window.addEventListener("load", () => {
-	setTimeout(s(".loader-container").classList.add("hidden"), 1000);
+	setTimeout(() => {
+		s(".loader-container").classList.add("hidden")
+	}, 1000);
 });
 
 // Set the background mood.

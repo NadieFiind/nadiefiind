@@ -131,7 +131,7 @@ body::-webkit-scrollbar {
 	width: 1px;
 }
 body::-webkit-scrollbar-track {
-	background: transparent;
+	background-color: black;
 }
 body::-webkit-scrollbar-thumb {
 	background: white;
