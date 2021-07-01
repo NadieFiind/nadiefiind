@@ -1,34 +1,46 @@
-h1 {
-	text-align: center;
+header {
 	margin: auto;
-	padding-top: 240px;
-	width: 600px;
-	font-size: 4rem;
+	max-width: 600px;
+	height: 100vh;
+	text-align: center;
+	line-height: 100vh;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 3rem;
 	color: white;
-	font-family: Oswald;
-	line-height: 80px;
+	font-family: Poppins;
 }
 
 h2 {
 	font-size: 3rem;
 	font-family: Poppins;
 	margin-bottom: 20px;
+	text-align: center;
+}
+h2 > span:nth-child(2) {
+	position: relative;
+	top: -3px;
+	font-size: 1.2rem;
 }
 
 /*** First Section ***/
 .section1 {
+	margin: 0;
 	background-color: black;
-	margin: 400px auto;
 	color: white;
-	padding: 0 80px 120px 80px;
+	padding: 0 0 120px 0;
 }
 .social-links {
 	padding-top: 50px;
 	text-align: center;
 }
-.social-links > div {
+.social-links > a {
 	display: inline;
 	padding: 0 10px;
+	color: white;
+	text-decoration: none;
 }
 .avatar {
 	text-align: center;
@@ -38,9 +50,22 @@ h2 {
 	width: 100%;
 }
 .text {
-	padding-top: 150px;
 	text-align: justify;
 }
 .section1 span {
 	font-size: 1.5rem;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	/*** First Section ***/
+	.section1 {
+		padding: 0 80px 120px 80px;
+	}
+	h2 {
+		text-align: left;
+	}
+	.text {
+		padding-top: 150px;
+	}
 }

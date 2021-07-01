@@ -2,39 +2,30 @@
 {% block head %}
 		<!-- Local Stylesheets and Scripts -->
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+		<script src="{{ url_for('static', filename='scripts/home.js') }}" defer></script>
 {% endblock head %}
 {% block body %}
-		<h1>Greetings! 👀</h1>
+		<header>
+			<h1 class="noselect">
+				Working in progress
+				<span class="dot">.</span>
+				<span class="dot">.</span>
+				<span class="dot">.</span>
+			</h1>
+		</header>
 		<section class="section1 row">
-			<div class="avatar col-4">
+			<div class="avatar col-12 col-md-4">
 				<img src="{{ url_for('static', filename='images/Nadie.png') }}">
 				<div class="m-0 social-links">
-					<div class="fab fa-discord fa-2x"></div>
-					<div class="fab fa-github fa-2x"></div>
-					<div class="fas fa-envelope fa-2x"></div>
-					<div class="fab fa-twitter fa-2x"></div>
+					<a target="_blank" href="https://discordapp.com/users/459745032811839500" class="fa-2x fab fa-discord"></a>
+					<a target="_blank" href="https://github.com/NadieFiind" class="fa-2x fab fa-github"></a>
+					<a target="_blank" href="mailto:nadiefiind@gmail.com" class="fa-2x fas fa-envelope"></a>
+					<a target="_blank" href="https://twitter.com/NadieFiind" class="fa-2x fab fa-twitter"></a>
 				</div>
 			</div>
-			<div class="text col-8">
-				<h2>Nadie Fiind</h2>
-				<span>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Etiam egestas, urna non sollicitudin scelerisque,
-					lorem mauris interdum massa, at vestibulum erat mauris eget justo.
-					Mauris mattis, mi sed luctus convallis, lectus lorem bibendum augue,
-					sit amet luctus dui urna a velit.
-					Quisque faucibus aliquam mauris quis suscipit.
-					Nullam eu sollicitudin odio.
-					Aliquam maximus auctor quam, id porta leo tincidunt at.
-					Pellentesque habitant morbi tristique senectus et netus et malesuada
-					fames ac turpis egestas. Quisque nec lorem consequat,
-					commodo mauris in, hendrerit augue. Praesent laoreet ex quis quam
-					tincidunt accumsan. Suspendisse in mi pretium, efficitur quam eget,
-					consequat ligula. In hac habitasse platea dictumst.
-					Aliquam in euismod ex. Nunc eleifend convallis iaculis.
-					Curabitur quis iaculis diam.
-					Aliquam efficitur lacus eu ante dignissim auctor.
-				</span>
+			<div class="text col-12 col-md-8">
+				<h2><span>It's</span> Nadie Fiind! <span>＼(￣▽￣)／</span></h2>
+				<span>Hi! I still don't know what to put on here.</span>
 			</div>
 		</section>
 {% endblock body %}
