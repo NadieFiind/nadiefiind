@@ -1,3 +1,24 @@
+<style>
+	.links {
+		filter: invert();
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		max-width: 700px;
+	}
+	.links > div {
+		margin: 0 10px;
+	}
+	.links img {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.skills-link > img {
+		border-radius: 10px;
+	}
+</style>
+
 # ⬜⬜⬜⬛⬛⬛⬛⬛⬛⬛ 30% Nadie
 <img
 	alt="Hello! It's Nadie Fiind"
@@ -41,6 +62,68 @@
 	src="https://img.shields.io/badge/License-NEET-green?style=for-the-badge"
 />
 
+<div class="links">
+	<div>
+		<a target="_blank" href="https://nadiefiind.github.io/">
+			<img alt="Website" src="icons/link-solid.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="mailto:nadiefiind@gmail.com">
+			<img alt="Email" src="icons/envelope-solid.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://discord.com/users/459745032811839500">
+			<img alt="Discord" src="icons/discord.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://github.com/NadieFiind">
+			<img alt="GitHub" src="icons/github.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://www.hoyolab.com/accountCenter?id=114221687">
+			<img
+				alt="HoYoLAB"
+				src="https://cdn.discordapp.com/attachments/1031379767674556436/1040654731049181285/hoyolab.png"
+				style="filter: invert(); height: 2.5rem;"
+			/>
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://www.reddit.com/user/NadieFiind">
+			<img alt="Reddit" src="icons/reddit.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://twitter.com/NadieFiind">
+			<img alt="Twitter" src="icons/twitter.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://open.spotify.com/user/r8fcyujc1i3b2th7p2nd1ut7x?si=3642ee5174e64cb5">
+			<img alt="Spotify" src="icons/spotify.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://steamcommunity.com/id/nadiefiind">
+			<img alt="Steam" src="icons/steam.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://www.youtube.com/@nadiefiind">
+			<img alt="YouTube" src="icons/youtube.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://www.twitch.tv/nadiefiind">
+			<img alt="Twitch" src="icons/twitch.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+</div>
+
 <img
 	alt="Most Used Languages"
 	src="https://github-readme-stats.vercel.app/api?username=nadiefiind&theme=midnight-purple&count_private=true&show_icons=true&custom_title=GitHub%20Stats&include_all_commits=true"
@@ -69,17 +152,17 @@
 />
 
 ### Featured Libraries and Frameworks
-<a href="https://github.com/pyfyre/pyfyre" target="_blank"><img
+<a href="https://github.com/pyfyre/pyfyre" target="_blank" class="skills-link"><img
 	alt="PyFyre"
 	src="https://avatars.githubusercontent.com/u/81043230?s=280&v=4"
 	style="width: 50px;"
 /></a>
-<a href="https://github.com/pallets/flask" target="_blank"><img
+<a href="https://github.com/pallets/flask" target="_blank" class="skills-link"><img
 	alt="Flask"
 	src="https://cdn.hashnode.com/res/hashnode/image/upload/v1615396992718/UBhOk2Nwz.jpeg"
 	style="width: 50px;"
 /></a>
-<a href="https://github.com/Rapptz/discord.py" target="_blank"><img
+<a href="https://github.com/Rapptz/discord.py" target="_blank" class="skills-link"><img
 	alt="discord.py"
 	src="https://opencollective-production.s3.us-west-1.amazonaws.com/65ce4980-9d08-11ec-b627-7dcae50745f0.png"
 	style="width: 50px;"
