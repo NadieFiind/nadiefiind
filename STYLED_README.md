@@ -26,6 +26,10 @@
 />
 
 <img
+	alt="Visitors"
+	src="https://komarev.com/ghpvc/?username=NadieFiind&style=for-the-badge&color=lightgrey&label=Visitors"
+/>
+<img
 	alt="Field: Game Development"
 	src="https://img.shields.io/badge/Field-Game%20Development-%23ba95e3?style=for-the-badge"
 />
