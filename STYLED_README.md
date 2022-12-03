@@ -129,11 +129,11 @@
 </div>
 
 <img
-	alt="Most Used Languages"
+	alt="GitHub Stats"
 	src="https://github-readme-stats.vercel.app/api?username=nadiefiind&theme=midnight-purple&count_private=true&show_icons=true&custom_title=GitHub%20Stats&include_all_commits=true"
 />
 <img
-	alt="GitHub Stats"
+	alt="Most Used Languages"
 	src="https://github-readme-stats.vercel.app/api/top-langs/?username=nadiefiind&langs_count=8&layout=compact"
 />
 
