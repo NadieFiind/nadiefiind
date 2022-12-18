@@ -4,7 +4,7 @@
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
-		max-width: 700px;
+		max-width: 800px;
 	}
 	.links > div {
 		margin: 0 10px;
@@ -85,6 +85,11 @@
 	<div>
 		<a target="_blank" href="https://github.com/NadieFiind">
 			<img alt="GitHub" src="icons/github.svg" style="height: 2.5rem;" />
+		</a>
+	</div>
+	<div>
+		<a target="_blank" href="https://nadiefiind.itch.io">
+			<img alt="Itch.io" src="icons/itch-io.svg" style="height: 2.5rem;" />
 		</a>
 	</div>
 	<div>
