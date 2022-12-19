@@ -133,6 +133,15 @@
 	</div>
 </div>
 
+<p>
+	Do you want to commission me? Here are my
+	<a
+		target="_blank"
+		href="https://nadiefiind.github.io/services"
+		style="color: #8987f3; text-decoration: underline"
+	>services</a>.
+</p>
+
 <img
 	alt="GitHub Stats"
 	src="https://github-readme-stats.vercel.app/api?username=nadiefiind&theme=midnight-purple&count_private=true&show_icons=true&custom_title=GitHub%20Stats&include_all_commits=true"
