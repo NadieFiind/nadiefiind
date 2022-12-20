@@ -111,4 +111,4 @@ sudo say "Hi!"
 ```
 
 ### Changelog
-[STYLED_README.md#changelog](STYLED_README.md#changelog)
+[CHANGELOG.md](CHANGELOG.md)
