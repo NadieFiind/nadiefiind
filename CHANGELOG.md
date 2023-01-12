@@ -50,3 +50,7 @@
 
 **v18.5** (2022)
 - Learn Ren'Py
+
+**v18.8** (2023)
+- Learn LEMP stack (Linux, Nginx, MySQL, PHP)
+- Learn Docker
